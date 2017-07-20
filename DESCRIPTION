@@ -1,0 +1,28 @@
+Package: capstone
+Title: The Capstone Package Is The Final Project of a Coursera Training
+Version: 0.1.0
+Authors@R: person("Hector Ariel", "Aragon Oliva", email = "cienciasariel@gmail.com", role = c("aut", "cre"))
+Maintainer: Hector Ariel Aragon Oliva  <arielaragon@somewhere.net>
+Depends: R (>= 3.0.0)
+Description: Final test of the Mastering Software Development in R Coursera Course
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests: knitr,
+    rmarkdown,
+    testthat
+Imports: 
+    dplyr,
+    tidyr,
+    grid,
+        ggplot2,
+        leaflet,
+        magrittr,
+        stringr,
+        stringi,
+        lubridate,
+        readr
+Date: 2017-04-22
+VignetteBuilder: knitr
+BuildVignettes: yes
+RoxygenNote: 6.0.1
